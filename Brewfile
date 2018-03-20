@@ -15,6 +15,7 @@ brew 'maven'
 brew 'gradle'
 brew 'android-sdk'
 brew 'android-ndk'
+brew 'exercism'
 
 # cask '1password'
 cask 'atom'
