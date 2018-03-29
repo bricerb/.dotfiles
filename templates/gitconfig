@@ -1,12 +1,10 @@
 [user]
-	email = bricerb@gmail.com  # Update with Your Information
-	name = Brice Blanch  # Update with Your Information
 [core]
 	editor = atom -n -w
 	excludesfile = /Users/rrblanch-incomm/.gitignore_global
 	autocrlf = input
 [github]
-  user = bricerb  # Update with Your Information
+  user = rblanch-incomm  # Update with Your Information
 [color]
   ui = true
 [format]
@@ -14,3 +12,6 @@
 [credential]
 	helper = osxkeychain
 	useHttpPath = true
+[user]
+	name = rblanch-incomm
+	email = rblanch@incomm.com

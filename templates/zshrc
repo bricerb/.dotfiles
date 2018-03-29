@@ -11,7 +11,6 @@ fi
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias term='itermocil'
 alias pyserver='python -m SimpleHTTPServer 9000'
-alias weather='curl -4 wttr.in/Atlanta'
 alias v='vim .'
 alias yolo='git push origin master && git push heroku master'
 alias dot='~/.dotfiles'
@@ -31,6 +30,10 @@ alias gp="git push origin"
 alias gc="git commit"
 alias ga="git add ."
 alias gs="git status"
+
+# Dumb & Fun
+alias parrot='curl parrot.live'
+alias weather='curl -4 wttr.in/Atlanta'
 
 # Waiting Dots
 COMPLETION_WAITING_DOTS="true"
