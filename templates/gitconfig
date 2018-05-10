@@ -1,7 +1,7 @@
 [user]
 [core]
 	editor = atom -n -w
-	excludesfile = /Users/rrblanch-incomm/.gitignore_global
+	excludesfile = /Users/Brice/.gitignore_global
 	autocrlf = input
 [github]
   user = rblanch-incomm  # Update with Your Information
