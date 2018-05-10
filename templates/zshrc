@@ -25,6 +25,7 @@ alias npmpack='npm install mustache mustache-express body-parser express-validat
 alias npmall='npmsetup && npmpack'
 alias ownbrew='sudo chown -R $(whoami) /usr/local'
 alias py='python3'
+alias pytest='python -m pytest'
 
 # Git Shortcuts
 alias gp="git push origin"

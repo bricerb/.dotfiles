@@ -40,8 +40,7 @@
   "file-icons": {}
   linter: {}
   "linter-jshint": {}
-  "linter-ui-default":
-    panelHeight: 81
+  "linter-ui-default": {}
   minimap:
     displayMinimapOnLeft: true
     plugins:
