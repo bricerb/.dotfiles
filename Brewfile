@@ -15,6 +15,11 @@ brew 'maven'
 brew 'gradle'
 brew 'exercism'
 
+# Appium
+brew 'appium'
+brew 'appium-doctor'
+brew 'carthage'
+
 # cask '1password'
 cask 'atom'
 cask 'firefox'

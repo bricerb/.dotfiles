@@ -42,3 +42,8 @@ COMPLETION_WAITING_DOTS="true"
 # The Rubies
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# The Javas
+export JAVA_HOME='/Library/Java/Home'
+export PATH=${JAVA_HOME}/bin:$PATH
+export ANDROID_HOME='/Users/Brice/Library/Android/sdk'
