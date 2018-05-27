@@ -15,6 +15,7 @@ alias v='vim .'
 alias yolo='git push origin master && git push heroku master'
 alias dot='~/.dotfiles'
 alias desk='~/Desktop'
+alias kiba='~/.KIBA'
 alias del='rm -rf'
 alias html='atom . && open index.html'
 alias newhtml='mkdir css js && touch index.html css/style.css js/main.js'
@@ -47,3 +48,5 @@ eval "$(rbenv init -)"
 export JAVA_HOME='/Library/Java/Home'
 export PATH=${JAVA_HOME}/bin:$PATH
 export ANDROID_HOME='/Users/Brice/Library/Android/sdk'
+export PATH=${ANDROID_HOME}/tools:$PATH
+export PATH=${ANDROID_HOME}/platform-tools:$PATH
