@@ -16,12 +16,11 @@ alias yolo='git push origin master && git push heroku master'
 alias dot='~/.dotfiles'
 alias desk='~/Desktop'
 alias kiba='~/.KIBA'
-alias robocode='sh ~/robocoderobocode.sh'
+alias robocode='sh ~/robocode/robocode.sh'
 alias del='rm -rf'
 alias html='atom . && open index.html'
 alias newhtml='mkdir css js && touch index.html css/style.css js/main.js'
-alias npmgrade='npm install && atom .'
-alias npmsetup='mkdir public public/css views && touch app.js public/css/style.css && npm init && npm install express nodemon --save && atom .'
+alias npmsetup='mkdir public public/css views && touch server.js public/css/style.css && npm init && npm install express nodemon --save && subl .'
 alias npmpack='npm install mustache mustache-express body-parser express-validator express-session --save'
 alias npmall='npmsetup && npmpack'
 alias ownbrew='sudo chown -R $(whoami) /usr/local'
@@ -33,6 +32,8 @@ alias gp="git push origin"
 alias gc="git commit"
 alias ga="git add ."
 alias gs="git status"
+alias gitown="git config --global github.user 'bricerb' && git config --global user.name 'Brice Blanch' && git config --global user.email 'bricerb@gmail.com'"
+alias gitinc="git config --global github.user 'rblanch-incomm' && git config --global user.name 'rblanch-incomm' && git config --global user.email 'rblanch@incomm.com'"
 
 # Dumb & Fun
 alias parrot='curl parrot.live'
