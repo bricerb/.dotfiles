@@ -4,7 +4,7 @@
 	excludesfile = /Users/Brice/.gitignore_global
 	autocrlf = input
 [github]
-  user = rblanch-incomm  # Update with Your Information
+  user = bricerb  # Update with Your Information
 [color]
   ui = true
 [format]
@@ -13,5 +13,5 @@
 	helper = osxkeychain
 	useHttpPath = true
 [user]
-	name = rblanch-incomm
-	email = rblanch@incomm.com
+	name = Brice Blanch
+	email = bricerb@gmail.com
