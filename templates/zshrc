@@ -33,7 +33,6 @@ alias gc="git commit"
 alias ga="git add ."
 alias gs="git status"
 alias gitown="git config --global github.user 'bricerb' && git config --global user.name 'Brice Blanch' && git config --global user.email 'bricerb@gmail.com'"
-alias gitinc="git config --global github.user 'rblanch-incomm' && git config --global user.name 'rblanch-incomm' && git config --global user.email 'rblanch@incomm.com'"
 
 # Dumb & Fun
 alias parrot='curl parrot.live'
