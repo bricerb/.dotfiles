@@ -1,10 +1,10 @@
 [user]
 [core]
 	editor = atom -n -w
-	excludesfile = /Users/Brice/.gitignore_global
+	excludesfile = /Users/rxb8p37/.gitignore_global
 	autocrlf = input
 [github]
-	user = bricerb
+	user = rxb8p37
 [color]
   ui = true
 [format]
@@ -13,5 +13,5 @@
 	helper = osxkeychain
 	useHttpPath = true
 [user]
-	email = bricerb@gmail.com
+	email = rxb8p37
 	name = Brice Blanch
