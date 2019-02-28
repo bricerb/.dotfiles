@@ -11,7 +11,9 @@ fi
 alias v='vim .'
 alias dot='~/.dotfiles'
 alias desk='~/Desktop'
+alias cql='/Users/Shared/apache-cassandra-3.11.3/bin/cqlsh lnc6ed2 -u qacr2db4adm1' -p Mucheasier@1
 alias del='rm -rf'
+alias cql='cd /Users/Shared/apache-cassandra-3.11.3/bin && ./cqlsh lnc6ed2 -u qacr2db4adm1 -p Mucheasier@1'
 
 # Git Shortcuts
 alias gp="git push origin"

@@ -1,4 +1,3 @@
-[user]
 [core]
 	editor = atom -n -w
 	excludesfile = /Users/rxb8p37/.gitignore_global
