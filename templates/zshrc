@@ -9,11 +9,12 @@ fi
 
 # Aliases
 alias v='vim .'
+alias py='python3'
 alias dot='~/.dotfiles'
 alias desk='~/Desktop'
 alias cql='/Users/Shared/apache-cassandra-3.11.3/bin/cqlsh lnc6ed2 -u qacr2db4adm1' -p Mucheasier@1
 alias del='rm -rf'
-alias cql='cd /Users/Shared/apache-cassandra-3.11.3/bin && ./cqlsh lnc6ed2 -u qacr2db4adm1 -p Mucheasier@1'
+alias cql='/Users/Shared/apache-cassandra-3.11.3/bin/cqlsh lnc6ed2 -u qacr2db4adm1 -p Mucheasier@1'
 
 # Git Shortcuts
 alias gp="git push origin"
@@ -31,7 +32,7 @@ alias weather='curl -4 wttr.in/Atlanta'
 COMPLETION_WAITING_DOTS="true"
 
 # The Javas
-export JAVA_HOME='/Library/Java/Home'
+export JAVA_HOME='/usr'
 export PATH=${JAVA_HOME}/bin:$PATH
 export GOPATH=/Users/Shared/GolandProjects
 export GOROOT=/usr/local/opt/go/libexec
