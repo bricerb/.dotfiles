@@ -10,10 +10,12 @@ fi
 # Aliases
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias v='vim .'
+alias py='python3'
 alias dot='~/.dotfiles'
 alias desk='~/Desktop'
+alias cql='/Users/Shared/apache-cassandra-3.11.3/bin/cqlsh lnc6ed2 -u qacr2db4adm1' -p Mucheasier@1
 alias del='rm -rf'
-alias py='python3'
+alias cql='/Users/Shared/apache-cassandra-3.11.3/bin/cqlsh lnc6ed2 -u qacr2db4adm1 -p Mucheasier@1'
 
 # Git Shortcuts
 alias gp="git push origin"
@@ -21,7 +23,7 @@ alias gc="git commit"
 alias ga="git add ."
 alias gs="git status"
 alias gitown="git config --global github.user 'bricerb' && git config --global user.name 'Brice Blanch' && git config --global user.email 'bricerb@gmail.com'"
-alias gitinc="git config --global github.user 'rblanch-incomm' && git config --global user.name 'rblanch-incomm' && git config --global user.email 'rblanch@incomm.com'"
+
 
 # Dumb & Fun
 alias parrot='curl parrot.live'
@@ -31,11 +33,10 @@ alias weather='curl -4 wttr.in/Atlanta'
 COMPLETION_WAITING_DOTS="true"
 
 # The Javas
-export JAVA_HOME='/Library/Java/Home'
+export JAVA_HOME='/usr'
 export PATH=${JAVA_HOME}/bin:$PATH
-
 # Go
-export GOPATH=/Users/Shared/git/goLangProject
+export GOPATH=/Users/Shared/GolandProjects
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
