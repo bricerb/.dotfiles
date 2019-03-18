@@ -23,6 +23,7 @@ alias ga="git add ."
 alias gs="git status"
 alias gitown="git config --global github.user 'bricerb' && git config --global user.name 'Brice Blanch' && git config --global user.email 'bricerb@gmail.com'"
 
+
 # Dumb & Fun
 alias parrot='curl parrot.live'
 alias weather='curl -4 wttr.in/Atlanta'
@@ -31,7 +32,7 @@ alias weather='curl -4 wttr.in/Atlanta'
 COMPLETION_WAITING_DOTS="true"
 
 # The Javas
-export JAVA_HOME='/Library/Java/Home'
+export JAVA_HOME='/usr'
 export PATH=${JAVA_HOME}/bin:$PATH
 
 # Gophers Only

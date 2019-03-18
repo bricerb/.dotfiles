@@ -4,16 +4,8 @@ tap 'homebrew/bundle'
 
 brew 'node'
 brew 'git'
-brew 'postgresql'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'yarn'
 brew 'zsh'
 brew 'python3'
-brew 'ant'
-brew 'maven'
-brew 'gradle'
-brew 'exercism'
 
 # Appium
 # brew 'appium'
