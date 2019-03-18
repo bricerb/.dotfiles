@@ -40,3 +40,22 @@ echo "${GREEN}>>>>> Finished - Creating Zsh Configuration${NC}"
 echo "${YELLOW}>>>>> Making Zsh Default Shell${NC}"
 chsh -s /bin/zsh
 echo "${GREEN}>>>>> Finished - Making Zsh Default Shell${NC}"
+
+# # Set Powerline as theme
+echo "${YELLOW}>>>>> Setting Powerline Font${NC}"
+git clone https://github.com/powerline/fonts
+cd fonts
+sh install.sh
+cd ..
+rm -rf fonts
+echo "${YELLOW}>>>>> Finished - Setting Powerline Font${NC}"
+
+# # Add personalized theme
+echo "${YELLOW}>>>>> Adding Personalized Theme${NC}"
+rm ~/.zshrc ~/.zpreztorc
+ln -s ~/.dotfiles/templates/zshrc ~/.zshrc
+ln -s ~/.dotfiles/templates/zpreztorc ~/.zpreztorc
+rm ~/Library/Preferences/com.googlecode.iterm2.plist
+ln -s ~/.dotfiles/templates/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+defaults read ~/.dotfiles/templates/com.googlecode.iterm2.plist
+echo "${GREEN}>>>>> Finished - Adding Personalized Theme${NC}"

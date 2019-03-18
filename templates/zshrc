@@ -8,24 +8,13 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Aliases
-alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
-alias term='itermocil'
-alias pyserver='python -m SimpleHTTPServer 9000'
 alias v='vim .'
-alias yolo='git push origin master && git push heroku master'
 alias dot='~/.dotfiles'
 alias desk='~/Desktop'
-alias kiba='~/.KIBA'
-alias robocode='sh ~/robocode/robocode.sh'
+alias cql='/Users/Shared/apache-cassandra-3.11.3/bin/cqlsh lnc6ed2 -u qacr2db4adm1' -p Mucheasier@1
 alias del='rm -rf'
-alias html='atom . && open index.html'
-alias newhtml='mkdir css js && touch index.html css/style.css js/main.js'
-alias npmsetup='mkdir public public/css views && touch server.js public/css/style.css && npm init && npm install express nodemon --save && subl .'
-alias npmpack='npm install mustache mustache-express body-parser express-validator express-session --save'
-alias npmall='npmsetup && npmpack'
-alias ownbrew='sudo chown -R $(whoami) /usr/local'
 alias py='python3'
-alias pytest='python -m pytest'
+alias cql='cd /Users/Shared/apache-cassandra-3.11.3/bin && ./cqlsh lnc6ed2 -u qacr2db4adm1 -p Mucheasier@1'
 
 # Git Shortcuts
 alias gp="git push origin"
@@ -41,13 +30,12 @@ alias weather='curl -4 wttr.in/Atlanta'
 # Waiting Dots
 COMPLETION_WAITING_DOTS="true"
 
-# The Rubies
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
 # The Javas
 export JAVA_HOME='/Library/Java/Home'
 export PATH=${JAVA_HOME}/bin:$PATH
-export ANDROID_HOME='/Users/Brice/Library/Android/sdk'
-export PATH=${ANDROID_HOME}/tools:$PATH
-export PATH=${ANDROID_HOME}/platform-tools:$PATH
+
+# Gophers Only
+export GOPATH=/usr/local/Cellar/go/1.12/bin
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin

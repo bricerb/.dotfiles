@@ -1,0 +1,9 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "editor.formatOnSave": true,
+    "editor.fontamily": "Roboto Mono for powerline",
+    "editor.acceptSuggestionOnCommitCharacter": false
+}

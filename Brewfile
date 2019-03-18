@@ -16,9 +16,9 @@ brew 'gradle'
 brew 'exercism'
 
 # Appium
-brew 'appium'
-brew 'appium-doctor'
-brew 'carthage'
+# brew 'appium'
+# brew 'appium-doctor'
+# brew 'carthage'
 
 # cask '1password'
 cask 'atom'
@@ -32,12 +32,14 @@ cask 'flux'
 cask 'postman'
 # cask 'filezilla'
 cask 'sublime-text'
-# cask 'visual-studio-code'
+cask 'visual-studio-code'
 cask 'flux'
 cask 'intellij-idea-ce'
 cask 'pgadmin4'
 # cask 'gimp'
+cask caffeine
+cask beyond-compare
 
 # Android SDK requirements
-cask 'intel-haxm'
-cask 'android-studio'
+# cask 'intel-haxm'
+# cask 'android-studio'

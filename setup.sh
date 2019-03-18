@@ -67,8 +67,11 @@ ln -sf $atom/package.cson ~/.atom
 ln -sf $atom/snippets.cson ~/.atom
 ln -sf $atom/styles.less ~/.atom
 ln -sf $atom/init.coffee ~/.atom
-
 echo "${GREEN}>>>>> Finished - Linking Atom configuration files${NC}"
+
+echo "${YELLOW}>>>>>  Linking VSCode configuration files${NC}"
+sh ./scripts/vscode-package-install.sh
+echo "${GREEN}>>>>> Finished - Linking VSCode configuration files${NC}"
 
 # Create Packages.txt File (This will save your current Atom Package list)
 # echo "${YELLOW}>>>>> Creating Packages.txt file${NC}"
