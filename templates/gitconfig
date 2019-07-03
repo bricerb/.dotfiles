@@ -14,3 +14,5 @@
 [user]
 	email = rxb8p37
 	name = Brice Blanch
+[url "git@github.homedepot.com:"]
+	insteadOf = https://github.homedepot.com/
