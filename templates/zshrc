@@ -35,8 +35,12 @@ COMPLETION_WAITING_DOTS="true"
 export JAVA_HOME='/usr'
 export PATH=${JAVA_HOME}/bin:$PATH
 
-# Gophers Only
-export GOPATH=/usr/local/Cellar/go/1.12/bin
-export GOROOT=/usr/local/opt/go/libexec
+# Gopers
+export GOPATH=/Users/Shared/GolandProjects
+#export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/rxb8p37/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/rxb8p37/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/rxb8p37/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/rxb8p37/google-cloud-sdk/completion.zsh.inc'; fi
