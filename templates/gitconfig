@@ -1,5 +1,5 @@
 [core]
-	editor = atom -n -w
+	editor = vim
 	excludesfile = /Users/rxb8p37/.gitignore_global
 	autocrlf = input
 [github]
