@@ -48,3 +48,4 @@ if [ -f '/Users/rxb8p37/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/r
 export GIT_TERMINAL_PROMPT=1
 export EDITOR=/usr/bin/vim
 export VISUAL="$EDITOR"
+t
