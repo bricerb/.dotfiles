@@ -1,9 +1,9 @@
 [core]
 	editor = atom -n -w
-	excludesfile = /Users/rxb8p37/.gitignore_global
+	excludesfile = /Users/bricerb/.gitignore_global
 	autocrlf = input
 [github]
-	user = rxb8p37
+	user = bricerb
 [color]
   ui = true
 [format]
@@ -12,7 +12,7 @@
 	helper = osxkeychain
 	useHttpPath = true
 [user]
-	email = rxb8p37
-	name = Brice Blanch
+	email = bricerb
+	name = Brice
 [url "git@github.homedepot.com:"]
 	insteadOf = https://github.homedepot.com/

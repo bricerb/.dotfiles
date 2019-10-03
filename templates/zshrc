@@ -34,7 +34,18 @@ COMPLETION_WAITING_DOTS="true"
 # The Javas
 export JAVA_HOME='/usr'
 export PATH=${JAVA_HOME}/bin:$PATH
+# Android Addons
+export ANDROID_HOME='/Users/Brice/Library/Android/sdk'
+export PATH=${ANDROID_HOME}/tools:$PATH
+export PATH=${ANDROID_HOME}/platform-tools:$PATH
+
+# Gopher Time
 export GOPATH=/Users/Shared/GolandProjects
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
+
+# Node/JS
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
