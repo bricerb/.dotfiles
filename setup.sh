@@ -20,14 +20,14 @@ CYAN='\033[1;36m'
 NC='\033[0m' # No Color
 
 # Install Homebrew
-echo "${YELLOW}>>>>> Installing Home Brew${NC}"
-sh ./scripts/homebrew.sh
-echo "${GREEN}>>>>> Finished - Installing Home Brew${NC}"
+# echo "${YELLOW}>>>>> Installing Home Brew${NC}"
+# sh ./scripts/homebrew.sh
+# echo "${GREEN}>>>>> Finished - Installing Home Brew${NC}"
 
 # Install Applications with Homebrew
-echo "${YELLOW}>>>>> Starting Brew Bundle${NC}"
-brew bundle
-echo "${GREEN}>>>>> Finished - Brew Bundle${NC}"
+# echo "${YELLOW}>>>>> Starting Brew Bundle${NC}"
+# brew bundle
+# echo "${GREEN}>>>>> Finished - Brew Bundle${NC}"
 
 # Add Applications to Dock
 echo "${YELLOW}>>>>> Adding Applications to Dock${NC}"
@@ -60,15 +60,15 @@ echo "${CYAN}>>>>> Heading back to .dotfiles directory${NC}"
 cd ..
 
 # Copy over Atom Information
-echo "${YELLOW}>>>>> Linking Atom configuration files${NC}"
-ln -sf $atom/config.cson ~/.atom
-ln -sf $atom/keymap.cson ~/.atom
-ln -sf $atom/package.cson ~/.atom
-ln -sf $atom/snippets.cson ~/.atom
-ln -sf $atom/styles.less ~/.atom
-ln -sf $atom/init.coffee ~/.atom
+# echo "${YELLOW}>>>>> Linking Atom configuration files${NC}"
+# ln -sf $atom/config.cson ~/.atom
+# ln -sf $atom/keymap.cson ~/.atom
+# ln -sf $atom/package.cson ~/.atom
+# ln -sf $atom/snippets.cson ~/.atom
+# ln -sf $atom/styles.less ~/.atom
+# ln -sf $atom/init.coffee ~/.atom
 
-echo "${GREEN}>>>>> Finished - Linking Atom configuration files${NC}"
+# echo "${GREEN}>>>>> Finished - Linking Atom configuration files${NC}"
 
 # Create Packages.txt File (This will save your current Atom Package list)
 # echo "${YELLOW}>>>>> Creating Packages.txt file${NC}"
@@ -76,9 +76,9 @@ echo "${GREEN}>>>>> Finished - Linking Atom configuration files${NC}"
 # echo "${GREEN}>>>>> Finished - Creating Packages.txt file${NC}"
 
 # Install Atom packages
-echo "${YELLOW}>>>>> Installing Atom Packages${NC}"
-sh $scripts/atom-package-install.sh
-echo "${GREEN}>>>>> Finished - Installing Atom Packages${NC}"
+# echo "${YELLOW}>>>>> Installing Atom Packages${NC}"
+# sh $scripts/atom-package-install.sh
+# echo "${GREEN}>>>>> Finished - Installing Atom Packages${NC}"
 
 echo ""
 echo ""
