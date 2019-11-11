@@ -57,5 +57,5 @@ ln -s ~/.dotfiles/templates/zshrc ~/.zshrc
 ln -s ~/.dotfiles/templates/zpreztorc ~/.zpreztorc
 rm ~/Library/Preferences/com.googlecode.iterm2.plist
 ln -s ~/.dotfiles/templates/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
-defaults read ~/.dotfiles/templates/com.googlecode.iterm2.plist
+defaults read ~/Library/Preferences/com.googlecode.iterm2.plist
 echo "${GREEN}>>>>> Finished - Adding Personalized Theme${NC}"
