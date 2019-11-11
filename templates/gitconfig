@@ -1,9 +1,9 @@
 [core]
 	editor = vim
-	excludesfile = /Users/rxb8p37/.gitignore_global
+	excludesfile = /Users/rbb1j52/.gitignore_global
 	autocrlf = input
 [github]
-	user = bricerb
+	user = Brice
 [color]
   ui = true
 [format]
@@ -12,5 +12,5 @@
 	helper = osxkeychain
 	useHttpPath = true
 [user]
-	email = rxb8p37
-	name = Brice Blanch
+	email = rbb1j52
+	name = Brice

@@ -2,36 +2,43 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 
-brew 'node'
+# CLI
 brew 'git'
-brew 'zsh'
+brew 'neovim'
+brew 'tree'
+cask 'iterm2'
+
+# Quality of Life
+cask 'caffeine'
+cask 'flux'
+cask 'amethyst'
+
+# Applications
+cask 'firefox'
+cask 'google-chrome'
+cask 'slack'
+cask 'spotify'
+cask 'postman'
+cask 'visual-studio-code'
+cask 'beyond-compare'
+
+# Go
+brew 'go'
+
+# Java
+cask 'intellij-idea-ce'
+
+# JS
+brew 'node'
+
+# Python
 brew 'python3'
+
+# Android SDK requirements
+# cask 'intel-haxm'
+# cask 'android-studio'
 
 # Appium
 # brew 'appium'
 # brew 'appium-doctor'
 # brew 'carthage'
-
-# cask '1password'
-cask 'atom'
-cask 'firefox'
-cask 'google-chrome'
-cask 'slack'
-# cask 'sketch'
-cask 'iterm2'
-cask 'spotify'
-cask 'flux'
-cask 'postman'
-# cask 'filezilla'
-cask 'sublime-text'
-cask 'visual-studio-code'
-cask 'flux'
-cask 'intellij-idea-ce'
-cask 'pgadmin4'
-# cask 'gimp'
-cask caffeine
-cask beyond-compare
-
-# Android SDK requirements
-# cask 'intel-haxm'
-# cask 'android-studio'

@@ -4,6 +4,10 @@ These are my dot files. Enjoy.
 
 ## Restore
 
+```sh
+git clone https://github.com/bricerb/.dotfiles.git
+```
+
 * Clone this repo to your home directory
 * Run the `setup.sh` file
 * Enter *Password* when Prompt
