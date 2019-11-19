@@ -8,7 +8,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Aliases
-alias yolo='echo YOLO'
 alias c='clear'
 alias v='vim'
 alias dot='~/.dotfiles'
@@ -24,7 +23,6 @@ alias gc="git commit"
 alias ga="git add ."
 alias gs="git status"
 alias gitown="git config --global github.user 'bricerb' && git config --global user.name 'Brice Blanch' && git config --global user.email 'bricerb@gmail.com'"
-
 
 # Dumb & Fun
 alias parrot='curl parrot.live'
