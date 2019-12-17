@@ -5,11 +5,19 @@
 export HOME_DIR="/Users/$USER"
 export DOTFILES_DIR="$HOME_DIR/.dotfiles"
 export NOTES_DIR="$HOME_DIR/Playground/Notes_For_Self"
+export GIT="/usr/bin/git"
+
+cd /Users/rbb1j52/Desktop
+touch CRON_BEFORE
 
 # Dotfiles
 cd $DOTFILES_DIR
-/usr/bin/git pull && /usr/bin/git add . && /usr/bin/git commit -m 'Edit' && /usr/bin/git push
+$GIT pull && $GIT add . && $GIT commit -m 'Edit' && $GIT push
 
 # Useful Notes
 cd $NOTES_DIR
-/usr/bin/git pull && /usr/bin/git add . && /usr/bin/git commit -m 'Edit' && /usr/bin/git push
+$GIT pull && $GIT add . && $GIT commit -m 'Edit' && $GIT push
+
+
+cd /Users/rbb1j52/Desktop
+touch CRON_AFTER

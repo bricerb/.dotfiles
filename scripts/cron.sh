@@ -2,7 +2,8 @@
 # 
 # Usage: Remove and set cron jobs
 
-CRON_EXPRESSION="25,38,39 9,12,15 * * *"
+# CRON_EXPRESSION="25 9,15 * * *"
+CRON_EXPRESSION="* 9,15,16 * * *"
 HOME_DIR="/Users/$USER"
 CRONJOBS_DIR="$HOME_DIR/.dotfiles/scripts/cronjobs"
 
