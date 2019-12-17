@@ -1,17 +1,13 @@
 #! /bin/bash
 # 
-# Usage: Cron
+# Usage: Remove and set cron jobs
 
+CRON_EXPRESSION="25,38,39 9,12,15 * * *"
 HOME_DIR="/Users/$USER"
-NOTES_DIR="$HOME_DIR/Playground/Notes_For_Self"
-DOTFILES_DIR="$HOME_DIR/.dotfiles"
+CRONJOBS_DIR="$HOME_DIR/.dotfiles/scripts/cronjobs"
 
-export GIT_TERMINAL_PROMPT=0
+# Delete Crontab job
+crontab -r
 
-# Useful Notes
-cd $NOTES_DIR 
-git pull && git add . && git commit -m 'Edit' && git push
-
-# Dotfiles
-cd $DOTFILES_DIR
-git pull && git add . && git commit -m 'Edit' && git push
+# Repo Upkeep
+(crontab -l 2>/dev/null; echo "$CRON_EXPRESSION $CRONJOBS_DIR/repo_upkeep.sh") | crontab -
