@@ -12,11 +12,15 @@ touch CRON_BEFORE
 
 # Dotfiles
 cd $DOTFILES_DIR
-touch DOTFILES
+touch DOTFILES_START
 $GIT pull
+touch PULL
 $GIT add .
+touch ADD
 $GIT commit -m 'Edit'
+touch COMMIT
 $GIT push
+touch DOTFILES_END
 
 # Useful Notes
 # cd $NOTES_DIR
