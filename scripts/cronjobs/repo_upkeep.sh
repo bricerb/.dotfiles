@@ -12,11 +12,15 @@ touch CRON_BEFORE
 
 # Dotfiles
 cd $DOTFILES_DIR
-$GIT pull && $GIT add . && $GIT commit -m 'Edit' && $GIT push
+touch DOTFILES
+$GIT pull
+$GIT add .
+$GIT commit -m 'Edit'
+$GIT push
 
 # Useful Notes
-cd $NOTES_DIR
-$GIT pull && $GIT add . && $GIT commit -m 'Edit' && $GIT push
+# cd $NOTES_DIR
+# $GIT pull && $GIT add . && $GIT commit -m 'Edit' && $GIT push >> $HOME_DIR/Desktop/git.log
 
 
 cd /Users/rbb1j52/Desktop
