@@ -16,7 +16,7 @@ alias desk='~/Desktop'
 alias cql='/Users/Shared/apache-cassandra-3.11.4/bin/cqlsh lnc6ed2 -u qacr2db4adm1 -p Mucheasier@1'
 alias del='rm -rf'
 alias py='python3'
-
+alias play='~/Playground'
 
 # Git Shortcuts
 alias gp="git push origin"
