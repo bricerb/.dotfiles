@@ -16,6 +16,10 @@ mkdir -p ~/.config/nvim
 # Symbolic Link to template init.vim
 ln -s ~/.dotfiles/templates/init.vim ~/.config/nvim/init.vim
 
+# Symbolic Link to Sublime Text Editor
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+
+
 # Download Pathogen for vim (https://github.com/tpope/vim-pathogen)
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim

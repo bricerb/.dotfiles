@@ -20,6 +20,7 @@ cask 'slack'
 cask 'spotify'
 cask 'postman'
 cask 'visual-studio-code'
+cask 'sublime-text'
 cask 'beyond-compare'
 
 # Go
