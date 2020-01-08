@@ -7,7 +7,6 @@
 #  Variables
 dir=~/.dotfiles
 templates=$dir/templates
-atom=$dir/atom
 scripts=$dir/scripts
 olddir=~/.dotfiles_old
 files="gitconfig zshrc zpreztorc gitignore_global npmrc"
@@ -69,9 +68,9 @@ sh scripts/reppos.sh
 echo "${GREEN}>>>>>> Done setting up Cronjobs\n${NC}"
 
 # Setup Cronjobs
-echo "${YELLOW}>>>>>> Creating Cronjobs to upkeep useful repos\n${NC}"
-sh scripts/cron.sh
-echo "${GREEN}>>>>>> Done setting up Cronjobs\n${NC}"
+# echo "${YELLOW}>>>>>> Creating Cronjobs to upkeep useful repos\n${NC}"
+# sh scripts/cron.sh
+# echo "${GREEN}>>>>>> Done setting up Cronjobs\n${NC}"
 
 echo "${YELLOW}>>>>>  Linking VSCode configuration files${NC}"
 sh $scripts/vscode-package-install.sh

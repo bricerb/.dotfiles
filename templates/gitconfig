@@ -1,6 +1,6 @@
 [core]
 	editor = vim
-	excludesfile = /Users/rbb1j52/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	autocrlf = input
 [github]
 	user = Brice
