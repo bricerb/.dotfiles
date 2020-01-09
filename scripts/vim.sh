@@ -17,7 +17,6 @@ mkdir -p ~/.config/nvim
 ln -s ~/.dotfiles/templates/init.vim ~/.config/nvim/init.vim
 
 # Symbolic Link to Sublime Text Editor
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
 
 # Download Pathogen for vim (https://github.com/tpope/vim-pathogen)
@@ -28,4 +27,4 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
 
 # Run :GoInstallBinaries
-vim +'silent :GoInstallBinaries' +qall
+nvim +'silent :GoInstallBinaries' +qall

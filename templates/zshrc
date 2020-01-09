@@ -11,12 +11,19 @@ fi
 alias yolo='git add . && git commit -m 'edit' && git push --set-upstream origin "$(git-branch-current 2> /dev/null)"'
 alias c='clear'
 alias v='nvim'
-alias dot='~/.dotfiles'
-alias desk='~/Desktop'
 alias cql='/Users/Shared/apache-cassandra-3.11.4/bin/cqlsh lnc6ed2 -u qacr2db4adm1 -p Mucheasier@1'
 alias del='rm -rf'
 alias py='python3'
+
+# Locations
+alias desk='~/Desktop'
+alias dot='~/.dotfiles'
 alias play='~/Playground'
+alias cmd='~/.scripts'
+alias note='~/.notes'
+
+# Scripts
+alias on='~/.scripts/note/main'
 
 # Git Shortcuts
 alias gp="git push origin"
@@ -44,7 +51,7 @@ export PATH=$PATH:$GOROOT/bin
 export GOPRIVATE=*.homedepot.com
 
 # export GIT_TERMINAL_PROMPT=1
-export EDITOR=/usr/bin/nvim
+export EDITOR=/usr/local/bin/nvim
 export VISUAL="$EDITOR"
 
 export PATH=$HOME/bin:$PATH
