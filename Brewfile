@@ -3,7 +3,8 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 
 # CLI
-brew 'git'
+# Moving git to dotfiles setup
+# brew 'git'
 brew 'neovim'
 brew 'tree'
 cask 'iterm2'

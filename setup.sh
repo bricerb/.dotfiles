@@ -18,10 +18,11 @@ YELLOW='\033[1;33m'
 CYAN='\033[1;36m'
 NC='\033[0m' # No Color
 
+# Moving Homebrew installation to setting up dotfiles
 # Install Homebrew
-echo "${YELLOW}>>>>> Installing Home Brew${NC}"
-sh $scripts/homebrew.sh
-echo "${GREEN}>>>>> Finished - Installing Home Brew${NC}"
+#echo "${YELLOW}>>>>> Installing Home Brew${NC}"
+#sh $scripts/homebrew.sh
+#echo "${GREEN}>>>>> Finished - Installing Home Brew${NC}"
 
 # Install Applications with Homebrew
 echo "${YELLOW}>>>>> Starting Brew Bundle${NC}"
