@@ -72,8 +72,14 @@ echo "${GREEN}>>>>>> Done setting up Cronjobs\n${NC}"
 # sh scripts/cron.sh
 # echo "${GREEN}>>>>>> Done setting up Cronjobs\n${NC}"
 
+# Setup VS Code preferences
 echo "${YELLOW}>>>>>  Linking VSCode configuration files${NC}"
 sh $scripts/vscode-package-install.sh
 echo "${GREEN}>>>>> Finished - Linking VSCode configuration files${NC}"
+
+# Setup Sublime Text 3 Preferences
+echo "${YELLOW}>>>>>  Linking Sublime Text 3 configuration files${NC}"
+sh $scripts/sublime-preferences.sh
+echo "${GREEN}>>>>> Finished - Linking Sublime Text 3 configuration files${NC}"
 
 echo "\n\n${GREEN}I${CYAN}n${YELLOW}s${GREEN}t${CYAN}a${YELLOW}l${GREEN}l${CYAN}a${YELLOW}t${GREEN}i${CYAN}o${YELLOW}n ${GREEN}C${CYAN}o${YELLOW}m${GREEN}p${CYAN}l${YELLOW}e${GREEN}t${CYAN}e${YELLOW}!"

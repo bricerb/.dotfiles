@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"material_theme_accent_indigo": true,
+	"material_theme_titlebar": true,
+	"theme": "Material-Theme.sublime-theme",
+	"update_check": false
+}
