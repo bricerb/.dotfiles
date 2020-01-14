@@ -24,6 +24,7 @@ alias note='~/.notes'
 
 # Scripts
 alias on='~/.scripts/note/main'
+alias up='~/.scripts/up/main'
 
 # Git Shortcuts
 alias gp="git push origin"
