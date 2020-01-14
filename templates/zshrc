@@ -14,7 +14,7 @@ alias v='nvim'
 alias cql='/Users/Shared/apache-cassandra-3.11.4/bin/cqlsh lnc6ed2 -u qacr2db4adm1 -p Mucheasier@1'
 alias del='rm -rf'
 alias py='python3'
-alias up="~/.dotfiles && gfm && yolo && ~/.notes && gfm && yolo && ~/.scripts && gfm &&yolo"
+alias up="export TEMP=$(pwd) && ~/.dotfiles && gfm && yolo && ~/.notes && gfm && yolo && ~/.scripts && gfm && yolo && cd $TEMP"
 
 # Locations
 alias desk='~/Desktop'
