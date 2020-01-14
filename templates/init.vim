@@ -1,3 +1,8 @@
+
+call plug#begin()
+Plug 'fatih/vim-go'
+Plug 'SirVer/ultisnips'
+call plug#end()
 syntax on
 filetype plugin indent on
 
