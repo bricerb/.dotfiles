@@ -24,6 +24,9 @@ cask 'visual-studio-code'
 cask 'sublime-text'
 cask 'beyond-compare'
 
+# Programming
+brew 'k6'
+
 # Go
 brew 'go'
 
