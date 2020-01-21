@@ -65,7 +65,7 @@ cd ..
 
 # Download Usefuls Repos
 echo "${YELLOW}>>>>>> Creating Cronjobs to upkeep useful repos\n${NC}"
-sh scripts/reppos.sh
+sh scripts/repos.sh
 echo "${GREEN}>>>>>> Done setting up Cronjobs\n${NC}"
 
 # Setup Cronjobs

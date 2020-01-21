@@ -1,8 +1,8 @@
-
 call plug#begin()
-Plug 'fatih/vim-go'
+Plug 'fatih/vim-go' { 'do' : ':GoInstallBinaries' } 
 Plug 'SirVer/ultisnips'
 call plug#end()
+
 syntax on
 filetype plugin indent on
 

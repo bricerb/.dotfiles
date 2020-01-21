@@ -2,4 +2,5 @@
 # 
 # Usage: Clone down useful repos
 
-git clone github.com/bricerb/Notes_For_Self /Users/$USER/Playground/
+git clone http://github.com/bricerb/.notes /Users/$USER/.notes
+git clone http://github.com/bricerb/.scripts /Users/$USER/.scripts
