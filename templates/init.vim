@@ -1,3 +1,8 @@
+call plug#begin('~/.vim/plugged')
+Plug 'fatih/vim-go'
+Plug 'SirVer/ultisnips'
+call plug#end()
+
 syntax on
 filetype plugin indent on
 
@@ -21,6 +26,12 @@ set autowrite
 let g:go_list_type = "quickfix"
 let g:go_test_timeout = '10s'
 let g:go_fmt_command = "goimports"
+let g:go_addtags_transform = "camelcase"
+
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
 
 map <C-n> :cnext<CR>
 map <C-m> :cprevious<CR>
@@ -37,7 +48,7 @@ function! s:build_go_files()
 endfunction
 
 autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
-autocmd FileType go nmap <leader>r  <Plug>(go-run)
+autocmd FileType go nmap <leader>r <Plug>(go-run)
 autocmd FileType go nmap <leader>t <Plug>(go-test)
 autocmd FileType go nmap <leader>c <Plug>(go-coverage-toggle)
 
