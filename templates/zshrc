@@ -8,7 +8,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Aliases
-alias yolo='git add . && git commit -m 'edit' && git push --set-upstream origin "$(git-branch-current 2> /dev/null)"'
+alias yolo='git add . && git commit -m "edit" && git push --set-upstream origin "$(git-branch-current 2> /dev/null)"'
 alias c='clear'
 alias v='nvim'
 alias cql='/Users/Shared/apache-cassandra-3.11.4/bin/cqlsh lnc6ed2 -u qacr2db4adm1 -p Mucheasier@1'
