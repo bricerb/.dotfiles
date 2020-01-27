@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')
-Plug 'fatih/vim-go'
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'SirVer/ultisnips'
 call plug#end()
 
