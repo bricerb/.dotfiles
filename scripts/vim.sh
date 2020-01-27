@@ -19,9 +19,8 @@ ln -s ~/.dotfiles/templates/init.vim ~/.config/nvim/init.vim
 # Symbolic Link to Sublime Text Editor
 
 
-# Download Pathogen for vim (https://github.com/tpope/vim-pathogen)
-mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+# Download vim-plug(https://github.com/tpope/vim-pathogen)
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # Download vim-go using Pathogen
 git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
