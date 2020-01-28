@@ -42,8 +42,8 @@ alias weather='curl -4 wttr.in/Atlanta'
 COMPLETION_WAITING_DOTS="true"
 
 # The Javas
-export JAVA_HOME='/usr'
-export PATH=${JAVA_HOME}/bin:$PATH
+#export JAVA_HOME='/usr'
+#export PATH=${JAVA_HOME}/bin:$PATH
 
 # Gophers
 export GOPATH=/Users/Shared/GolandProjects
