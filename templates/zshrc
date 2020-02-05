@@ -11,7 +11,6 @@ fi
 alias yolo='git add . && git commit -m "edit" && git push --set-upstream origin "$(git-branch-current 2> /dev/null)"'
 alias c='clear'
 alias v='nvim'
-alias cqlsh='/Users/Shared/cqlsh-apollo/bin/cqlsh'
 alias cql='/Users/Shared/cqlsh-apollo/bin/cqlsh lnc6ed2 -u qacr2db4adm1 -p Mucheasier@1'
 alias del='rm -rf'
 alias py='python3'
@@ -42,8 +41,8 @@ alias weather='curl -4 wttr.in/Atlanta'
 COMPLETION_WAITING_DOTS="true"
 
 # The Javas
-export JAVA_HOME='/usr'
-export PATH=${JAVA_HOME}/bin:$PATH
+#export JAVA_HOME='/usr'
+#export PATH=${JAVA_HOME}/bin:$PATH
 
 # Gophers
 export GOPATH=/Users/Shared/GolandProjects
@@ -63,3 +62,4 @@ if [ -f '~/google-cloud-sdk/path.zsh.inc' ]; then . '~/google-cloud-sdk/path.zsh
 
 # The next line enables shell command completion for gcloud.
 if [ -f '~/google-cloud-sdk/completion.zsh.inc' ]; then . '~/google-cloud-sdk/completion.zsh.inc'; fi
+alias cqlsh='/Users/Shared/cqlsh-apollo/bin/cqlsh'

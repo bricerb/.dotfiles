@@ -18,6 +18,8 @@ ln -s ~/.dotfiles/templates/init.vim ~/.config/nvim/init.vim
 
 # Symbolic Link to Sublime Text Editor
 
+# Install python processes for neovim
+pip3 install neovim
 
 # Download vim-plug(https://github.com/tpope/vim-pathogen)
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
