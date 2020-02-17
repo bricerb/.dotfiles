@@ -47,3 +47,6 @@ brew 'python3'
 # brew 'appium'
 # brew 'appium-doctor'
 # brew 'carthage'
+
+# Hacking
+cask 'burp-suite'
