@@ -51,7 +51,7 @@ export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 export GOPRIVATE=*.homedepot.com
 
-# export GIT_TERMINAL_PROMPT=1
+export GIT_TERMINAL_PROMPT=1
 export EDITOR=/sur/local/bin/nvim
 export VISUAL="$EDITOR"
 
