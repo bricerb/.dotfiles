@@ -20,6 +20,7 @@ ln -s ~/.dotfiles/templates/init.vim ~/.config/nvim/init.vim
 
 # Install python processes for neovim
 pip3 install neovim
+python3 -m pip install --user --upgrade pynvim
 
 # Download vim-plug(https://github.com/tpope/vim-pathogen)
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
