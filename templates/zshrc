@@ -11,7 +11,7 @@ fi
 alias yolo='git add . && git commit -m "edit" && git push --set-upstream origin "$(git-branch-current 2> /dev/null)"'
 alias c='clear'
 alias v='nvim'
-alias cql='/Users/Shared/cqlsh-apollo/bin/cqlsh lnc6ed2 -u qacr2db4adm1 -p Mucheasier@1'
+#alias cql='/Users/Shared/cassandra/bin/cqlsh lnc6ed2 -u qacr2db4adm1 -p Mucheasier@1'
 alias del='rm -rf'
 alias py='python3'
 
@@ -32,6 +32,9 @@ alias gc="git commit"
 alias ga="git add ."
 alias gs="git status"
 alias gitown="git config --global github.user 'bricerb' && git config --global user.name 'Brice Blanch' && git config --global user.email 'bricerb@gmail.com'"
+
+# Docker
+alias dcc="docker ps -aq | xargs docker rm -f"
 
 # Dumb & Fun
 alias parrot='curl parrot.live'
@@ -62,4 +65,23 @@ if [ -f '~/google-cloud-sdk/path.zsh.inc' ]; then . '~/google-cloud-sdk/path.zsh
 
 # The next line enables shell command completion for gcloud.
 if [ -f '~/google-cloud-sdk/completion.zsh.inc' ]; then . '~/google-cloud-sdk/completion.zsh.inc'; fi
-alias cqlsh='/Users/Shared/cqlsh-apollo/bin/cqlsh'
+eval export PATH="/Users/rbb1j52/.jenv/shims:${PATH}"
+export JENV_SHELL=zsh
+export JENV_LOADED=1
+unset JAVA_HOME
+source '/usr/local/Cellar/jenv/0.5.3/libexec/libexec/../completions/jenv.zsh'
+jenv rehash 2>/dev/null
+jenv() {
+  typeset command
+  command="$1"
+  if [ "$#" -gt 0 ]; then
+    shift
+  fi
+
+  case "$command" in
+  enable-plugin|rehash|shell|shell-options)
+    eval `jenv "sh-$command" "$@"`;;
+  *)
+    command jenv "$command" "$@";;
+  esac
+}
