@@ -36,6 +36,10 @@ defaults write com.apple.dock 'orientation' -string 'left'
 # Remove default apps from Dock
 defaults write com.apple.dock persistent-apps -array
 
+# Add Quit option to Finder
+defaults write com.apple.finder QuitMenuItem -bool true; killall Finder
+
+
 # Adds a List of Applications to the Dock
 defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/Google Chrome.app</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>'
 defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/Firefox.app</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>'
