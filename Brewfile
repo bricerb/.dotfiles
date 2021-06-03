@@ -4,7 +4,6 @@ tap 'homebrew/bundle'
 
 # CLI
 # Moving git to dotfiles setup
-# brew 'git'
 brew 'neovim'
 brew 'tree'
 cask 'iterm2'
@@ -33,8 +32,8 @@ brew 'go'
 # Java
 cask 'intellij-idea-ce'
 
-# JS
-brew 'node'
+# Javascript
+brew 'yarn'
 
 # Python
 brew 'python3'

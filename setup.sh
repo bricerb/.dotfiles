@@ -39,6 +39,11 @@ echo "${YELLOW}>>>>> Configuring Prezto${NC}"
 zsh $scripts/prezto.sh
 echo "${GREEN}>>>>> Finished - Configuring Prezto${NC}"
 
+# Running Extras"
+echo "${YELLOW}>>>>> Running Extras${NC}"
+zsh $scripts/extras.sh
+echo "${GREEN}>>>>> Finished - Running Extras${NC}"
+
 echo "${YELLOW}>>>>> Configuring Vim${NC}"
 zsh $scripts/vim.sh
 echo "${GREEN}>>>>> Finished - Configuring Vim${NC}"
