@@ -37,7 +37,8 @@ defaults write com.apple.dock 'orientation' -string 'left'
 defaults write com.apple.dock persistent-apps -array
 
 # Add Quit option to Finder
-defaults write com.apple.finder QuitMenuItem -bool true; killall Finder
+#defaults write com.apple.finder QuitMenuItem -bool true; killall Finder
+defaults write com.apple.finder QuitMenuItem -bool YES
 
 
 # Adds a List of Applications to the Dock
