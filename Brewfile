@@ -24,6 +24,7 @@ cask 'sublime-text'
 cask 'beyond-compare'
 
 # Programming
+brew 'gh'
 brew 'k6'
 
 # Go
