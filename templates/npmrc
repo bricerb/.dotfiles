@@ -1,4 +1,4 @@
 save=true
 save-exact=true
 loglevel=error
-registry=https://npm.artifactory.homedepot.com/artifactory/api/npm/npm/
+registry=http://registry.npmjs.org/
